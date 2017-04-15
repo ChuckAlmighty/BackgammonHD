@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scenes\Game Scene\GUI\PopupManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Scenes\Game Scene\GUI\PopupManager.cs" Line="67" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Game Scene\AI Player\AIPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGBoardMap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGMoveOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGState.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Global\Network\BackgammonServer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Game Scene\BackgammonManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Global\NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Main Menu Scene\NewGameMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Global\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGDiceRoll.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Main Menu Scene\BoardPreview.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGPointID.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Backgammon Logic\BGPoint.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Global\Interfaces\INetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Game Scene\GUI\GameHud.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\Game Scene\GUI\DoublingCubeOfferDialog.cs" Line="18" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

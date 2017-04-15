@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{20F56BE1-9106-45F9-8C84-6C4C6E0B6392}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGBoardMap.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGDiceRoll.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGMove.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGMoveOptions.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGPlayerID.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGPoint.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGPointID.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\BGState.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\Interfaces\IBoardMap.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\Interfaces\IMoveOptions.cs" />
+     <Compile Include="Assets\Scripts\Backgammon Logic\Interfaces\IPoint.cs" />
+     <Compile Include="Assets\Scripts\Common\AIDifficulty.cs" />
+     <Compile Include="Assets\Scripts\Common\Alert.cs" />
+     <Compile Include="Assets\Scripts\Common\ArrayHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\BoxColliderHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\EventHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\FloatingObject.cs" />
+     <Compile Include="Assets\Scripts\Common\GameMode.cs" />
+     <Compile Include="Assets\Scripts\Common\GameObjectGroup.cs" />
+     <Compile Include="Assets\Scripts\Common\Interfaces\ICopy.cs" />
+     <Compile Include="Assets\Scripts\Common\ListHelper.cs" />
+     <Compile Include="Assets\Scripts\Common\Mover.cs" />
+     <Compile Include="Assets\Scripts\Common\Network\Client.cs" />
+     <Compile Include="Assets\Scripts\Common\Network\Server.cs" />
+     <Compile Include="Assets\Scripts\Common\Node.cs" />
+     <Compile Include="Assets\Scripts\Common\PlayMode.cs" />
+     <Compile Include="Assets\Scripts\Common\Popup.cs" />
+     <Compile Include="Assets\Scripts\Common\PopupMessage.cs" />
+     <Compile Include="Assets\Scripts\Common\Rail.cs" />
+     <Compile Include="Assets\Scripts\Common\RailMover.cs" />
+     <Compile Include="Assets\Scripts\Common\SelectionMenu.cs" />
+     <Compile Include="Assets\Scripts\Common\Serializer.cs" />
+     <Compile Include="Assets\Scripts\Common\SingletonGameObject.cs" />
+     <Compile Include="Assets\Scripts\Common\TranslationMode.cs" />
+     <Compile Include="Assets\Scripts\Common\Vector3Helper.cs" />
+     <Compile Include="Assets\Scripts\Global\Adapters\GameManagerAdapter.cs" />
+     <Compile Include="Assets\Scripts\Global\Adapters\NetworkManagerAdapter.cs" />
+     <Compile Include="Assets\Scripts\Global\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Global\Interfaces\IGameManager.cs" />
+     <Compile Include="Assets\Scripts\Global\Interfaces\INetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Global\Network\BackgammonClient.cs" />
+     <Compile Include="Assets\Scripts\Global\Network\BackgammonServer.cs" />
+     <Compile Include="Assets\Scripts\Global\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Global\Settings\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\NetworkCommands.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Board.cs" />
+     <Compile Include="Assets\Scripts\Scenes\BoardSet.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\AI Player\AIPlayer.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\AI Player\AIPlayerDefault.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\BackgammonManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Checker.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Dice.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Die.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\DoublingCube.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\DoublingCubeOfferDialog.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\EndTurnPopup.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\GameHudManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\MatchPlayEndPopup.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\MatchPlayHud.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\MoneyPlayEndPopup.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\MoneyPlayHud.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\GUI\PopupManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Indicators\Indicators.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Indicators\MoveIndicators.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Indicators\PlaceCheckerIndicators.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Indicators\SelectCheckerIndicators.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Interfaces\IDie.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\MoveResult.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Player.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\PlayerControlMode.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\Point.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Game Scene\SimpleDie.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Loading Scene\LoadingScene.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\BoardPreview.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\MainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\MainMenuSceneCamera.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\MainMenuSceneLights.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\NewGameMenu.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Main Menu Scene\WaitingForOpponentsMenu.cs" />
+     <Compile Include="Assets\Scripts\ServerClient.cs" />
+     <None Include="Assets\Shaders\Outlined Silhouette Only.shader" />
+     <None Include="Assets\Shaders\Outlined Silhouetted Diffuse.shader" />
+     <None Include="Assets\Shaders\Sprite Gradient.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
